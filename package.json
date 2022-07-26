@@ -1,0 +1,23 @@
+{
+  "name": "cypress-hill",
+  "version": "1.0.0",
+  "description": "learning cypress",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npm run test",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drinkfalconpunch/cypress-hill.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drinkfalconpunch/cypress-hill/issues"
+  },
+  "homepage": "https://github.com/drinkfalconpunch/cypress-hill#readme",
+  "dependencies": {
+    "cypress": "^10.3.1"
+  }
+}
