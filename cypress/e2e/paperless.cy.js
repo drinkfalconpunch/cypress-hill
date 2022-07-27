@@ -14,6 +14,7 @@ describe('home page has free demo link', () => {
     cy.visit(url)
       .get('a')
       .contains('Book Free Demo')
+      .click()
   })
 
   it('key integrations hover link is valid', () => {
