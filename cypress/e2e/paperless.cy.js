@@ -2,11 +2,11 @@ import "cypress-real-events/support"; // support for mouse hover
 
 const url = 'https://www.paperlessparts.com'
 
-describe('test front page loads', () => {
-  it('loads', () => {
-    cy.visit(url)
-  })
-})
+// describe('test front page loads', () => {
+//   it('loads', () => {
+//     cy.visit(url)
+//   })
+// })
 
 describe('home page has free demo link', () => {
   it('free demo link on front page', () => {
@@ -15,10 +15,8 @@ describe('home page has free demo link', () => {
       .get('a')
       .contains('Book Free Demo')
   })
-})
 
-describe('key integrations hover link is valid', () => {
-  it.only('key integrations hover link is valid', () => {
+  it('key integrations hover link is valid', () => {
     cy.visit(url)
       .get('#menu-header') // XPath: "//*[@id="menu-header"]/li[1]/a"
       .realHover('mouse')
@@ -26,9 +24,7 @@ describe('key integrations hover link is valid', () => {
       .contains('Key Integrations')
       .click({ force: true })
   })
-})
 
-describe('check footer for address', () => {
   it('check footer for address', () => {
     cy.visit(url)
       .get('footer')
