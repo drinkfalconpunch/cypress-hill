@@ -20,5 +20,8 @@
   "keywords": [],
   "devDependencies": {
     "cypress": "^10.3.1"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.7.1"
   }
 }
