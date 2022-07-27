@@ -17,7 +17,8 @@
     "url": "https://github.com/drinkfalconpunch/cypress-hill/issues"
   },
   "homepage": "https://github.com/drinkfalconpunch/cypress-hill#readme",
-  "dependencies": {
+  "keywords": [],
+  "devDependencies": {
     "cypress": "^10.3.1"
   }
 }
